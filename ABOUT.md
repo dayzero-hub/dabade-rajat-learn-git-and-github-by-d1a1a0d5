@@ -4,3 +4,4 @@ I am a software engineer learning data engineering and working through this curr
 
 ## What I'm learning
 - Golang
+- React
