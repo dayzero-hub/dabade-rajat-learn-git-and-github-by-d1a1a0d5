@@ -54,3 +54,11 @@ review runs again.
 
 **Never commit directly to `main`.** If you do it by accident, say so in Slack. It is a
 two-minute fix and a normal thing to get wrong once.
+
+## .gitignore
+
+This file lists what git should never track or push to GitHub — things like
+generated folders and files holding secrets. If a secret is committed and
+pushed, deleting it in a later commit does not fix it: the secret is already
+public and stays in git history forever, so anyone who cloned or viewed the
+repo before the deletion still has it.
