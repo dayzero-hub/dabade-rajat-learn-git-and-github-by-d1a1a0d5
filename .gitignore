@@ -8,3 +8,9 @@ Thumbs.db
 
 # Ticket 4 asks you to add two more entries here, with a comment above each
 # saying why. Read the ones above first: each says WHY, not just WHAT.
+
+# node_modules it should not go the repository because not required
+node_modules/
+
+# Environment variable - should never push the env variable to github
+.env

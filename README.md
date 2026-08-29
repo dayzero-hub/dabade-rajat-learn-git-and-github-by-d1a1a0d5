@@ -54,3 +54,6 @@ review runs again.
 
 **Never commit directly to `main`.** If you do it by accident, say so in Slack. It is a
 two-minute fix and a normal thing to get wrong once.
+
+## .gitignore
+This file contains what need to be avoided pushing to the github
